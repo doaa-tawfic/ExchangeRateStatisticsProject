@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRates", "ExchangeRates\ExchangeRates.csproj", "{280B9097-BA34-496D-9727-059B8F2FA6E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExchangeRates.Test", "ExchangeRates.Test\ExchangeRates.Test.csproj", "{767E6F50-BDC3-4EC8-AE0E-1E734BEA5518}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{280B9097-BA34-496D-9727-059B8F2FA6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280B9097-BA34-496D-9727-059B8F2FA6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280B9097-BA34-496D-9727-059B8F2FA6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280B9097-BA34-496D-9727-059B8F2FA6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767E6F50-BDC3-4EC8-AE0E-1E734BEA5518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767E6F50-BDC3-4EC8-AE0E-1E734BEA5518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767E6F50-BDC3-4EC8-AE0E-1E734BEA5518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767E6F50-BDC3-4EC8-AE0E-1E734BEA5518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
